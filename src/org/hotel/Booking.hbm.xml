@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="org.hotel">
+    <class name="Booking" table="bookingtable">
+        <id name="bookingid" column="bookingid"/>
+        <property name="roomno" column="roomno"/>
+        <property name="fullname" column="fullname"/>
+        <property name="contact" column="contact"/>
+        <property name="email" column="email"/>
+        <property name="age" column="age"/>
+        <property name="gender" column="gender"/>
+    </class>
+</hibernate-mapping>
